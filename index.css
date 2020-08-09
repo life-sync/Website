@@ -6,6 +6,35 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+/* Navbar */
+.topnav {
+ 
+ overflow : hidden ;
+ height: 50px ;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 2; 
+}
+
+.topnav a {
+color: #fff ;
+ margin-right: 50px;
+ padding: 14px 16px;
+ position: relative;
+ top: 10px;
+ }
+
+ .topnav a:hover {
+ background-color: #ffffe6;
+ color: black;
+ }
+
+.topnav .current {
+   background-color: #ffff99;
+ color: black;
+ }
+
 .intro{
     background: url('https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;

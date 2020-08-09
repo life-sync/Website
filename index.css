@@ -1,0 +1,84 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.intro{
+    background: url('https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    height: 49.5rem;
+    padding-top: 10rem;
+    background-attachment: fixed;
+}
+.intro-components h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14rem;
+    color: #eee;
+    font-weight: 800;
+    transition: 0.5s;
+    letter-spacing: 2px;
+
+}
+.intro-components h1:hover{
+    letter-spacing: 10px;
+}
+.intro-components p{
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 2rem;
+}
+.intro-components p:after{
+    content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 2px;
+    height: 25px;
+    width: 4px;
+    animation: cursor 0.4s infinite;
+}
+@keyframes cursor {
+    0% { opacity: 1; }
+      49% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 0; }
+}
+header{
+    width: 100vw;
+    height: 5vw;
+    background: transparent;
+    display: text;
+    align-items: center;
+    position: fixed;
+    transition: all 0.3s;
+    color: white;
+  }
+  h1{
+    padding-left:40px;
+    cursor: pointer;
+  }
+  section{
+    display:grid;
+    place-items: center;
+  }
+  .home{
+    height: 90vh;
+    background: #000;
+    color: #fff;
+  }
+  .about,.services{
+    background: #fff;
+    height: 100vh;
+    color: #000;
+  }
+  .change{
+    background: #fff;
+    color: #000;
+    position: fixed;
+  }

@@ -15,7 +15,7 @@
 }
 .intro-components h1{
     font-family: 'Roboto', sans-serif;
-    font-size: 14rem;
+    font-size: 13rem;
     color: #eee;
     font-weight: 800;
     transition: 0.5s;
@@ -32,7 +32,7 @@
     width: 70%;
     margin: 0 auto;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .intro-components p:after{
     content: '';
@@ -63,7 +63,7 @@ header{
     padding-left:40px;
     cursor: pointer;
   }
-  section{
+  div{
     display:grid;
     place-items: center;
   }
@@ -71,6 +71,8 @@ header{
     height: 90vh;
     background: #000;
     color: #fff;
+    font-size: 5rem;
+
   }
   .about,.services{
     background: #fff;

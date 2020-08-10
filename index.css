@@ -81,7 +81,7 @@ nav ul li a:hover{
     width: 70%;
     margin: 0 auto;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .intro-components p:after{
     content: '';

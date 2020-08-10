@@ -7,39 +7,19 @@
     scroll-behavior: smooth;
 }
 /* Navbar */
-.topnav {
- 
- overflow : hidden ;
- height: 50px ;
- position: fixed;
- top: 0;
- width: 100%;
- z-index: 2; 
+nav{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
 }
-
-.topnav a {
-color: #fff ;
- margin-right: 50px;
- padding: 14px 16px;
- position: relative;
- top: 10px;
- }
-
- .topnav a:hover {
- background-color: #ffffe6;
- color: black;
- }
-
-.topnav .current {
-   background-color: #ffff99;
- color: black;
- }
-
+.img{
+  border-radius: 100%;
+}
 .intro{
     background: url('https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     height: 49.5rem;
-    padding-top: 10rem;
+    padding-top: 7.5rem;
     background-attachment: fixed;
 }
 .intro-components h1{
@@ -61,7 +41,7 @@ color: #fff ;
     width: 70%;
     margin: 0 auto;
     display: inline-block;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .intro-components p:after{
     content: '';
@@ -78,7 +58,7 @@ color: #fff ;
       50% { opacity: 0; }
       100% { opacity: 0; }
 }
-header{
+.header{
     width: 100vw;
     height: 5vw;
     background: transparent;
@@ -87,10 +67,6 @@ header{
     position: fixed;
     transition: all 0.3s;
     color: white;
-  }
-  h1{
-    padding-left:40px;
-    cursor: pointer;
   }
   div{
     display:grid;
@@ -109,8 +85,7 @@ header{
     color: #000;
   }
   .change{
-    background: #fff;
-    color: #000;
+    background: #111;
     position: fixed;
   }
   .btnEntrance {

@@ -74,7 +74,7 @@ nav ul li a:hover{
 .intro-components h1:hover{
     letter-spacing: 10px;
 }
-.intro-components p{
+.intro-components h4{
     color: #eee;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;

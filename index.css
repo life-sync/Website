@@ -11,6 +11,7 @@ nav{
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 800;
+  z-index: 10000;
 }
 nav ul li {
   margin: 0.3rem;
@@ -113,16 +114,37 @@ nav ul li a:hover{
     place-items: center;
   }
   .home{
-    height: 90vh;
     background: #000;
-    color: #fff;
-    font-size: 5rem;
-
+    color: #eee;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
-  .about,.services{
-    background: #fff;
-    height: 100vh;
+  .home h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  .aim_content{
+    padding-top: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #eee;
+  }
+  .aim_content h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
+  .aim_content p{
+    font-weight: 600;
+  }
+  .about{
+    background: #eee;
     color: #000;
+  }
+  .services{
+    background: #eee;
+    color: #000;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
   .change{
     background: #111;
@@ -167,18 +189,18 @@ nav ul li a:hover{
     width: 50px;
     height: 50px;
     background-color: #fff;
-    color: #333;
+    color: #1f1f1f;
     cursor: pointer;
     outline: none;
-    border: 3px solid #333;
+    border: none;
     border-radius: 50%;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     transition-property: background-color, color;
   }
   #back-to-top-btn:hover, #back-to-top-btn:focus {
-    background-color: #333;
-    color: #fff;  
+    color: #fff;
+    background-color: #1f1f1f;  
   }
   ::-webkit-scrollbar {
     width: 10px;
@@ -192,4 +214,9 @@ nav ul li a:hover{
     box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     width: 15px;
     background: #eee;
+}
+.logo_content{
+  padding-left: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }

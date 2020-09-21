@@ -141,7 +141,7 @@ nav ul li a:hover{
     color: #000;
   }
   .services{
-    background: #eee;
+    background: #f2f1e8;
     color: #000;
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -219,4 +219,9 @@ nav ul li a:hover{
   padding-left: 2rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
+}
+.team_content{
+  padding-left: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
 }
